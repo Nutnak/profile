@@ -1,0 +1,110 @@
+body{
+  background-color: #EAE7B1;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 17px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.img-circle{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1{
+  font-weight: 900;
+}
+
+h1, h2, h3{
+  color: #A6BB8D ;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+p{
+  color: #3C6255;
+}
+
+.container {
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card-white{
+  background-color: white;
+  padding: 0px 35px 30px 30px;
+  margin: 50px;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 12px 32px -15px #000000;
+  border-radius: 5px;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.button_discover_wagon{
+  background-color: #3C6255;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color:white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.button_discover_wagon > a{
+  text-decoration: none;
+  color: white
+}
+
+.button_discover_wagon > a:hover{
+  text-decoration: none;
+  color:#A6BB8D;
+}
+
+.button_discover_wagon:hover{
+  box-shadow: 2px 12px 32px -15px #000000;
+  transition: 0.4s;
+}
+
+.fa-brands{
+  color: black;
+  font-size: 32px;
+}
+
+.fa-brands:hover{
+  color: grey;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
